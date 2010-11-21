@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Terminal
+Bundle-SymbolicName: com.randomwalking.swt.terminal
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: RANDOMWALKING
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.swt;bundle-version="3.6.1"
+Export-Package: com.randomwalking.swt.terminal
+Eclipse-ExtensibleAPI: true

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.console.consoleFactories">
+      <consoleFactory
+            class="com.randomwalking.eclipse.console.terminal.TerminalConsoleFactory"
+            icon="icons/clcl16/terminal.gif"
+            label="Terminal">
+      </consoleFactory>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            category="org.eclipse.ui.preferencePages.Workbench"
+            class="com.randomwalking.eclipse.console.terminal.preferences.TerminalConsolePreferencePage"
+            id="com.randomwalking.eclipse.console.terminal.preferences.TerminalConsolePreferencePage"
+            name="Terminal Console">
+      </page>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="com.randomwalking.eclipse.console.terminal.preferences.PreferenceInitializer">
+      </initializer>
+   </extension>
+
+</plugin>

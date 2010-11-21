@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: X86
+Bundle-SymbolicName: com.randomwalking.swt.terminal.linux.gtk.x86
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: RANDOMWALKING
+Fragment-Host: com.randomwalking.swt.terminal;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: com.randomwalking.swt.terminal,
+ com.randomwalking.swt.terminal.internal
+Bundle-NativeCode: libvte_wrap.so;
+ osname=Linux; 
+ processor=x86
+Eclipse-PlatformFilter: (& (osgi.ws=gtk) (osgi.os=linux) (osgi.arch=x86))
