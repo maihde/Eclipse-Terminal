@@ -6,6 +6,6 @@ Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: RANDOMWALKING
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy
-Require-Bundle: org.eclipse.swt;bundle-version="3.6.1"
+Require-Bundle: org.eclipse.swt;bundle-version="3.5.2"
 Export-Package: com.randomwalking.swt.terminal
 Eclipse-ExtensibleAPI: true
